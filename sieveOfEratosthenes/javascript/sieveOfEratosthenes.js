@@ -50,6 +50,7 @@ isPrime = (number) => {
          // 0 and 1 are not prime , setting to false
          prime[0] = prime[1] = false;
          
+         // marking multiples starting from 2 divisor as false
          for(let divisor = 2;divisor * divisor<= number; divisor++){
                 if(prime[divisor]) {
                     for(i = 2 * divisor; i<=number; i = i + divisor) {
