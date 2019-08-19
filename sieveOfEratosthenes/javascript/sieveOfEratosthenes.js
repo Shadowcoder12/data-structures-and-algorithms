@@ -40,7 +40,7 @@ isPrime = (number) => {
     
      isPrime(10);
 
-     // MORE EFFICIENT SOLUTION
+     // MEMORY EFFICIENT SOLUTION
     
      sieveOfEratosthenes = (number) => {
          let i;
@@ -65,3 +65,6 @@ isPrime = (number) => {
              }
          }
      }
+
+
+         
